@@ -1,0 +1,203 @@
+@media only screen and (max-width: 575px) {
+  header {
+    margin-top: 20px;
+  }
+  .header-right_actions .header-social {
+    display: block;
+  }
+  .header-button .btn {
+    padding: 11px 14px;
+    border-width: 2px;
+    font-size: 14px;
+  }
+  .homepage .swiper-slide {
+    padding-top: 100px;
+  }
+  .homepage .swiper-slide .slider-image {
+    margin-right: 0px;
+  }
+  .about-us .about-us-images {
+    width: 100% !important;
+  }
+  .about-us .about-us-images .top {
+    width: 100%;
+    flex-direction: column;
+  }
+  .about-us .about-us-images .top img {
+    margin-right: 0px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .about-us .about-us-images .bottom {
+    width: 100%;
+    flex-direction: column;
+  }
+  .about-us .about-us-images .bottom img {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .about-us .about-us-images .bottom img:last-child {
+    margin-bottom: 0px;
+  }
+  .who-we-are .content {
+    margin-left: 0px;
+  }
+  .card-heading {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .card-heading .title {
+    margin-top: 20px;
+    background-color: #1c1c1c;
+  }
+  .testimonial .testimonial-card {
+    padding: 40px 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  .homepage .swiper-slide {
+    padding-top: 120px;
+  }
+  .homepage .swiper-slide .slider-content {
+    margin-top: 0px;
+    position: relative;
+    margin-bottom: 40px;
+    left: 0;
+    transform: none;
+  }
+  .homepage .swiper-slide .slider-image {
+    margin-right: 0px;
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .about-us .about-us-images {
+    top: 0;
+    position: relative;
+    right: 0px;
+    width: 52%;
+  }
+  .about-us .about-us-images .top {
+    margin-left: 0;
+  }
+  .about-us .about-content .desc-one,
+  .about-us .about-content .desc-two {
+    max-width: 100%;
+  }
+  .who-we-are .achievement {
+    margin-top: 20px;
+  }
+  .who-we-are .content {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .who-we-are .image img {
+    margin-left: 0px;
+  }
+  .what-we-do .heading {
+    margin-bottom: 30px;
+  }
+  .what-we-do .bg-image {
+    display: none;
+  }
+  .what-we-do-card {
+    margin-right: 15px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .section-head p {
+    max-width: 650px;
+  }
+  .homepage .swiper-slide .slider-image {
+    margin-right: 40px;
+  }
+  .homepage .swiper-slide .slider-content {
+    margin-top: 80px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .homepage .swiper-slide .slider-content .title,
+  .portofolio .heading p,
+  .our-team p {
+    max-width: 510px;
+  }
+  .about-us .about-us-images {
+    position: relative;
+    top: 0;
+    right: 0px;
+    width: 66%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    margin-top: 20px;
+  }
+  .homepage .swiper-slide .slider-image {
+    margin-right: 10px;
+  }
+  .homepage .swiper-slide .slider-content {
+    margin-top: 0px;
+    max-width: 400px;
+    left: 0;
+    transform: none;
+  }
+  .about-us .about-us-images {
+    top: 0;
+    position: relative;
+    right: 0px;
+    width: 64%;
+  }
+  .about-us .about-us-images .top {
+    margin-left: 0;
+  }
+  .who-we-are .image img {
+    margin-left: 88px;
+  }
+  .who-we-are .content {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .what-we-do-card {
+    margin-right: 15px;
+  }
+  .what-we-do .bg-image {
+    width: 36%;
+  }
+  .what-we-do .heading {
+    margin-bottom: 50px;
+  }
+  .testimonial {
+    padding-bottom: 60px;
+  }
+  .testimonial .section-head {
+    margin-bottom: 40px;
+  }
+  .testimonial .testimonial-card {
+    padding: 40px 30px;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  header {
+    margin-top: 30px;
+  }
+  .header-right_actions {
+    margin-left: 30px;
+  }
+  .main-menu > ul > li {
+    margin-right: 25px;
+  }
+  .about-us .about-us-images {
+    position: relative;
+    top: 0;
+    right: 0px;
+    width: 60%;
+  }
+  .about-us .about-us-images .top {
+    margin-left: 0;
+  }
+  .who-we-are .content {
+    margin-left: 15px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

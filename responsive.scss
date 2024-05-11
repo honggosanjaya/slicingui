@@ -1,0 +1,224 @@
+@media only screen and (max-width: 575px) {
+  header {
+    margin-top: 20px;
+  }
+  .header-right_actions .header-social {
+    display: block;
+  }
+  .header-button .btn {
+    padding: 11px 14px;
+    border-width: 2px;
+    font-size: 14px;
+  }
+  .homepage .swiper-slide {
+    padding-top: 100px;
+    .slider-image {
+      margin-right: 0px;
+    }
+  }
+  .about-us .about-us-images {
+    width: 100% !important;
+    .top {
+      width: 100%;
+      flex-direction: column;
+      img {
+        margin-right: 0px;
+        margin-bottom: 30px;
+        width: 100%;
+      }
+    }
+    .bottom {
+      width: 100%;
+      flex-direction: column;
+      img {
+        margin-bottom: 30px;
+        width: 100%;
+      }
+      img:last-child {
+        margin-bottom: 0px;
+      }
+    }
+  }
+  .who-we-are .content {
+    margin-left: 0px;
+  }
+  .card-heading {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    .title {
+      margin-top: 20px;
+      background-color: #1c1c1c;
+    }
+  }
+  .testimonial .testimonial-card {
+    padding: 40px 30px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  .homepage .swiper-slide {
+    padding-top: 120px;
+    .slider-content {
+      margin-top: 0px;
+      position: relative;
+      margin-bottom: 40px;
+      left: 0;
+      transform: none;
+    }
+    .slider-image {
+      margin-right: 0px;
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  .about-us {
+    .about-us-images {
+      top: 0;
+      position: relative;
+      right: 0px;
+      width: 52%;
+    }
+    .about-us-images .top {
+      margin-left: 0;
+    }
+    .about-content .desc-one,
+    .about-content .desc-two {
+      max-width: 100%;
+    }
+  }
+  .who-we-are {
+    .achievement {
+      margin-top: 20px;
+    }
+    .content {
+      margin-left: 0px;
+      margin-top: 50px;
+    }
+    .image img {
+      margin-left: 0px;
+    }
+  }
+  .what-we-do {
+    .heading {
+      margin-bottom: 30px;
+    }
+    .bg-image {
+      display: none;
+    }
+  }
+  .what-we-do-card {
+    margin-right: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .section-head p {
+    max-width: 650px;
+  }
+
+  .homepage .swiper-slide {
+    .slider-image {
+      margin-right: 40px;
+    }
+    .slider-content {
+      margin-top: 80px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .homepage .swiper-slide .slider-content .title,
+  .portofolio .heading p,
+  .our-team p {
+    max-width: 510px;
+  }
+
+  .about-us .about-us-images {
+    position: relative;
+    top: 0;
+    right: 0px;
+    width: 66%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  header {
+    margin-top: 20px;
+  }
+  .homepage .swiper-slide {
+    .slider-image {
+      margin-right: 10px;
+    }
+    .slider-content {
+      margin-top: 0px;
+      max-width: 400px;
+      left: 0;
+      transform: none;
+    }
+  }
+  .about-us .about-us-images {
+    top: 0;
+    position: relative;
+    right: 0px;
+    width: 64%;
+    .top {
+      margin-left: 0;
+    }
+  }
+  .who-we-are .image img {
+    margin-left: 88px;
+  }
+  .who-we-are .content {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .what-we-do-card {
+    margin-right: 15px;
+  }
+  .what-we-do {
+    .bg-image {
+      width: 36%;
+    }
+    .heading {
+      margin-bottom: 50px;
+    }
+  }
+  .testimonial {
+    padding-bottom: 60px;
+    .section-head {
+      margin-bottom: 40px;
+    }
+    .testimonial-card {
+      padding: 40px 30px;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  header {
+    margin-top: 30px;
+  }
+  .header-right_actions {
+    margin-left: 30px;
+  }
+  .main-menu > ul > li {
+    margin-right: 25px;
+  }
+  .about-us {
+    .about-us-images {
+      position: relative;
+      top: 0;
+      right: 0px;
+      width: 60%;
+    }
+    .about-us-images .top {
+      margin-left: 0;
+    }
+  }
+  .who-we-are .content {
+    margin-left: 15px;
+  }
+}
