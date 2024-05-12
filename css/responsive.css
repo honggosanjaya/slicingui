@@ -21,7 +21,10 @@
   }
   .about-us .about-us-images .top {
     width: 100%;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .about-us .about-us-images .top img {
     margin-right: 0px;
@@ -30,7 +33,10 @@
   }
   .about-us .about-us-images .bottom {
     width: 100%;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .about-us .about-us-images .bottom img {
     margin-bottom: 30px;
@@ -53,7 +59,24 @@
   .testimonial .testimonial-card {
     padding: 40px 30px;
   }
+  .contact-us {
+    padding-left: 3%;
+  }
+  .contact-us .content {
+    padding: 30px 0 30px 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .contact-us .content .heading .heading-title {
+    margin-top: 0px;
+  }
 }
+
 @media only screen and (max-width: 767px) {
   body {
     font-size: 14px;
@@ -66,7 +89,8 @@
     position: relative;
     margin-bottom: 40px;
     left: 0;
-    transform: none;
+    -webkit-transform: none;
+            transform: none;
   }
   .homepage .swiper-slide .slider-image {
     margin-right: 0px;
@@ -105,10 +129,73 @@
   .what-we-do-card {
     margin-right: 15px;
   }
+  .contact-us .content {
+    padding: 60px 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .contact-us .content .heading {
+    width: 100%;
+  }
+  .contact-us .content .heading .heading-title {
+    margin-top: 5px;
+  }
+  .contact-us .content .heading .btn {
+    margin-top: 30px;
+  }
+  footer {
+    padding-top: 60px;
+  }
+  footer .footer-col {
+    margin-top: 0px;
+  }
+  footer .footer-col p {
+    margin-top: 20px;
+  }
+  footer form input {
+    padding: 10px 140px 10px 20px;
+    height: 60px;
+  }
+  footer form button {
+    padding: 0 30px;
+  }
+  footer .copyright {
+    padding: 50px 0 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  footer .copyright ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
+
+@media only screen and (max-width: 991px) {
+  footer form {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  footer form input {
+    max-width: 100%;
+  }
+}
+
 @media only screen and (min-width: 992px) {
-  .section-head p {
-    max-width: 650px;
+  .heading p {
+    max-width: 650px !important;
   }
   .homepage .swiper-slide .slider-image {
     margin-right: 40px;
@@ -116,7 +203,50 @@
   .homepage .swiper-slide .slider-content {
     margin-top: 80px;
   }
+  header {
+    margin-top: 30px;
+  }
+  .header-right_actions {
+    margin-left: 30px;
+  }
+  .main-menu > ul > li {
+    margin-right: 25px;
+  }
+  .about-us .about-us-images {
+    position: relative;
+    top: 0;
+    right: 0px;
+    width: 60%;
+  }
+  .about-us .about-us-images .top {
+    margin-left: 0;
+  }
+  .who-we-are .content {
+    margin-left: 15px;
+  }
+  .blog .subblog {
+    padding: 21px;
+  }
+  .blog .subblog .date {
+    margin-top: 23px;
+  }
+  .blog .mainblog .thumbnail {
+    margin-bottom: 0;
+  }
+  .contact-us .content {
+    padding: 80px 90px;
+  }
+  .contact-us .content .heading {
+    width: 70%;
+  }
+  .contact-us .content .btn {
+    margin-right: 30px;
+  }
+  footer form {
+    max-width: 420px;
+  }
 }
+
 @media only screen and (min-width: 1200px) {
   .homepage .swiper-slide .slider-content .title,
   .portofolio .heading p,
@@ -130,6 +260,7 @@
     width: 66%;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   header {
     margin-top: 20px;
@@ -141,7 +272,8 @@
     margin-top: 0px;
     max-width: 400px;
     left: 0;
-    transform: none;
+    -webkit-transform: none;
+            transform: none;
   }
   .about-us .about-us-images {
     top: 0;
@@ -171,33 +303,26 @@
   .testimonial {
     padding-bottom: 60px;
   }
-  .testimonial .section-head {
+  .testimonial .heading {
     margin-bottom: 40px;
   }
   .testimonial .testimonial-card {
     padding: 40px 30px;
   }
-}
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  header {
+  .contact-us .content {
+    padding: 80px 60px;
+  }
+  .contact-us .content .heading {
+    width: 70%;
+  }
+  footer {
+    padding-top: 80px;
+  }
+  footer .footer-col p {
     margin-top: 30px;
   }
-  .header-right_actions {
-    margin-left: 30px;
+  footer .copyright {
+    padding: 80px 0 60px;
   }
-  .main-menu > ul > li {
-    margin-right: 25px;
-  }
-  .about-us .about-us-images {
-    position: relative;
-    top: 0;
-    right: 0px;
-    width: 60%;
-  }
-  .about-us .about-us-images .top {
-    margin-left: 0;
-  }
-  .who-we-are .content {
-    margin-left: 15px;
-  }
-}/*# sourceMappingURL=responsive.css.map */
+}
+/*# sourceMappingURL=responsive.css.map */

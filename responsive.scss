@@ -53,6 +53,17 @@
   .testimonial .testimonial-card {
     padding: 40px 30px;
   }
+  .contact-us {
+    padding-left: 3%;
+    .content {
+      padding: 30px 0 30px 20px;
+      flex-direction: column;
+      align-items: flex-start;
+      .heading .heading-title {
+        margin-top: 0px;
+      }
+    }
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -112,11 +123,63 @@
   .what-we-do-card {
     margin-right: 15px;
   }
+  .contact-us .content {
+    padding: 60px 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    .heading {
+      width: 100%;
+      .heading-title {
+        margin-top: 5px;
+      }
+      .btn {
+        margin-top: 30px;
+      }
+    }
+  }
+  footer {
+    padding-top: 60px;
+    .footer-col {
+      margin-top: 0px;
+    }
+    .footer-col p {
+      margin-top: 20px;
+    }
+    form {
+      input {
+        padding: 10px 140px 10px 20px;
+        height: 60px;
+      }
+      button {
+        padding: 0 30px;
+      }
+    }
+    .copyright {
+      padding: 50px 0 40px;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      ul {
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  footer form {
+    max-width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    input {
+      max-width: 100%;
+    }
+  }
 }
 
 @media only screen and (min-width: 992px) {
-  .section-head p {
-    max-width: 650px;
+  .heading p {
+    max-width: 650px !important;
   }
 
   .homepage .swiper-slide {
@@ -126,6 +189,52 @@
     .slider-content {
       margin-top: 80px;
     }
+  }
+  header {
+    margin-top: 30px;
+  }
+  .header-right_actions {
+    margin-left: 30px;
+  }
+  .main-menu > ul > li {
+    margin-right: 25px;
+  }
+  .about-us {
+    .about-us-images {
+      position: relative;
+      top: 0;
+      right: 0px;
+      width: 60%;
+    }
+    .about-us-images .top {
+      margin-left: 0;
+    }
+  }
+  .who-we-are .content {
+    margin-left: 15px;
+  }
+  .blog {
+    .subblog {
+      padding: 21px;
+      .date {
+        margin-top: 23px;
+      }
+    }
+    .mainblog .thumbnail {
+      margin-bottom: 0;
+    }
+  }
+  .contact-us .content {
+    padding: 80px 90px;
+    .heading {
+      width: 70%;
+    }
+    .btn {
+      margin-right: 30px;
+    }
+  }
+  footer form {
+    max-width: 420px;
   }
 }
 
@@ -168,12 +277,14 @@
       margin-left: 0;
     }
   }
-  .who-we-are .image img {
-    margin-left: 88px;
-  }
-  .who-we-are .content {
-    margin-left: 0px;
-    margin-top: 50px;
+  .who-we-are {
+    .image img {
+      margin-left: 88px;
+    }
+    .content {
+      margin-left: 0px;
+      margin-top: 50px;
+    }
   }
   .what-we-do-card {
     margin-right: 15px;
@@ -188,37 +299,26 @@
   }
   .testimonial {
     padding-bottom: 60px;
-    .section-head {
+    .heading {
       margin-bottom: 40px;
     }
     .testimonial-card {
       padding: 40px 30px;
     }
   }
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
-  header {
-    margin-top: 30px;
-  }
-  .header-right_actions {
-    margin-left: 30px;
-  }
-  .main-menu > ul > li {
-    margin-right: 25px;
-  }
-  .about-us {
-    .about-us-images {
-      position: relative;
-      top: 0;
-      right: 0px;
-      width: 60%;
-    }
-    .about-us-images .top {
-      margin-left: 0;
+  .contact-us .content {
+    padding: 80px 60px;
+    .heading {
+      width: 70%;
     }
   }
-  .who-we-are .content {
-    margin-left: 15px;
+  footer {
+    padding-top: 80px;
+    .footer-col p {
+      margin-top: 30px;
+    }
+    .copyright {
+      padding: 80px 0 60px;
+    }
   }
 }
