@@ -10,6 +10,8 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
   </head>
@@ -143,12 +145,12 @@
     </div>
 
     <section class="homepage">
-      <div class="swiper">
+      <div class="swiper sliderone">
         <div class="swiper-wrapper">
-          <div class="swiper-slide swiper-slide">
+          <div class="swiper-slide">
             <div class="slider-content container">
               <div class="subtitle">We Are Egens</div>
-              <div class="title">We Help to Develop Business</div>
+              <div class="title" data-aos="slide-right" data-aos-duration="1500">We Help to Develop Business</div>
               <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliq enim ad minim veniam, quis nostrud</p>
               <a href="service-details.html" class="btn btn-design1">
                 <span>Read More</span>
@@ -157,15 +159,48 @@
             <div class="slider-image slide-two-image">
               <img src="img/slider/slider-2-1.png" alt="Slider Image" />
             </div>
-            <div class="slider-shape">
+            <div class="slider-shape" data-aos="fade-left" data-aos-duration="1500">
+              <img src="img/slider/circle-two.png" alt="Slider-Shape" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-content container">
+              <div class="subtitle">We Are Egens</div>
+              <div class="title" data-aos="slide-right" data-aos-duration="1500">We Help to Develop Business</div>
+              <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliq enim ad minim veniam, quis nostrud</p>
+              <a href="service-details.html" class="btn btn-design1">
+                <span>Read More</span>
+              </a>
+            </div>
+            <div class="slider-image slide-two-image">
+              <img src="img/slider/slider-2-1.png" alt="Slider Image" />
+            </div>
+            <div class="slider-shape" data-aos="fade-left" data-aos-duration="1500">
+              <img src="img/slider/circle-two.png" alt="Slider-Shape" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slider-content container">
+              <div class="subtitle">We Are Egens</div>
+              <div class="title" data-aos="fade-right" data-aos-duration="1500">We Help to Develop Business</div>
+              <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliq enim ad minim veniam, quis nostrud</p>
+              <a href="service-details.html" class="btn btn-design1">
+                <span>Read More</span>
+              </a>
+            </div>
+            <div class="slider-image slide-two-image">
+              <img src="img/slider/slider-2-1.png" alt="Slider Image" />
+            </div>
+            <div class="slider-shape" data-aos="fade-left" data-aos-duration="1500">
               <img src="img/slider/circle-two.png" alt="Slider-Shape" />
             </div>
           </div>
         </div>
+        <div class="swiper-pagination slidertwo-pagination"></div>
       </div>
     </section>
 
-    <section class="services">
+    <section class="services" data-aos="fade-in" data-aos-duration="3000">
       <div class="container">
         <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1">
           <div class="col">
@@ -218,7 +253,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-xxl-5 col-lg-4 col-12 mb-5">
-            <div class="about-content">
+            <div class="about-content" data-aos="fade-in" data-aos-duration="3000">
               <span class="subtitle">About Us</span>
               <h2 class="title">Creative Digital Agency</h2>
               <p class="desc-one">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -256,22 +291,20 @@
                 </div>
               </div>
               <div class="col-lg-6">
-                <div class="content">
-                  <div>
-                    <div class="subtitle subtitle-sm">We Are Egens</div>
-                    <div class="title title-sm">Make Your Business Double</div>
-                    <p class="mt-4 mb-3">Ut enim ad minim veniam, quis nostrud exercitation ullamco labor is tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    <div class="achievement">
-                      <div class="achiement-card">
-                        <span class="fs-1 fw-medium mb-2">2K</span>
-                        <div class="fs-5 fw-medium">Projects Completed</div>
-                        <p>Sed do eiusmod tempor incidi dunt ut labore.</p>
-                      </div>
-                      <div class="achiement-card">
-                        <span class="fs-1 fw-medium mb-2">5M</span>
-                        <div class="fs-5 fw-medium">Total Revinue</div>
-                        <p>Sed do eiusmod tempor incidi dunt ut labore.</p>
-                      </div>
+                <div class="content" data-aos="fade-in" data-aos-duration="3000">
+                  <div class="subtitle subtitle-sm">We Are Egens</div>
+                  <div class="title title-sm">Make Your Business Double</div>
+                  <p class="mt-4 mb-3">Ut enim ad minim veniam, quis nostrud exercitation ullamco labor is tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <div class="achievement">
+                    <div class="achiement-card">
+                      <span class="fs-1 fw-medium mb-2">2K</span>
+                      <div class="fs-5 fw-medium">Projects Completed</div>
+                      <p>Sed do eiusmod tempor incidi dunt ut labore.</p>
+                    </div>
+                    <div class="achiement-card">
+                      <span class="fs-1 fw-medium mb-2">5M</span>
+                      <div class="fs-5 fw-medium">Total Revinue</div>
+                      <p>Sed do eiusmod tempor incidi dunt ut labore.</p>
                     </div>
                   </div>
                 </div>
@@ -282,7 +315,7 @@
       </div>
     </section>
 
-    <section class="what-we-do">
+    <section class="what-we-do" data-aos="fade-in" data-aos-duration="3000">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -339,11 +372,11 @@
       <div class="bg-image"></div>
     </section>
 
-    <section class="portofolio">
+    <section class="portofolio portfolio-carousel-wrapper">
       <div class="container">
         <div class="row">
           <div class="col-12">
-            <div class="heading">
+            <div class="heading" data-aos="fade-in" data-aos-duration="3000">
               <span class="subtitle subtitle-sm">Portfolio</span>
               <h2 class="title title-sm">Our Amazing Works</h2>
               <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. when the musics over turnoff the light</p>
@@ -352,10 +385,10 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <div class="swiper">
+            <div class="swiper portfolio-carousel parent-gallery">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <div class="single-portfolio">
+                  <div class="single-portfolio single-portfolio-carousel">
                     <a class="thumbnail" href="#">
                       <img src="./img/slider/portfolio-7.png" alt="portfolio" />
                     </a>
@@ -367,7 +400,7 @@
                 </div>
 
                 <div class="swiper-slide">
-                  <div class="single-portfolio">
+                  <div class="single-portfolio single-portfolio-carousel">
                     <a class="thumbnail" href="#">
                       <img src="./img/slider/portfolio-7.png" alt="portfolio" />
                     </a>
@@ -376,6 +409,39 @@
                       <div class="desc-title">When the musics over turn off the light</div>
                     </div>
                   </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="single-portfolio single-portfolio-carousel">
+                    <a class="thumbnail" href="#">
+                      <img src="./img/slider/portfolio-7.png" alt="portfolio" />
+                    </a>
+                    <div class="description p-3">
+                      <div class="desc-subtitle">Web Design</div>
+                      <div class="desc-title">When the musics over turn off the light</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="single-portfolio single-portfolio-carousel">
+                    <a class="thumbnail" href="#">
+                      <img src="./img/slider/portfolio-7.png" alt="portfolio" />
+                    </a>
+                    <div class="description p-3">
+                      <div class="desc-subtitle">Web Design</div>
+                      <div class="desc-title">When the musics over turn off the light</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="portfolio-swiper-arrow">
+                <div class="swiper-btn swiper-btn-prev">
+                  <i class="bi bi-chevron-left"></i>
+                </div>
+                <div class="swiper-btn swiper-btn-next">
+                  <i class="bi bi-chevron-right"></i>
                 </div>
               </div>
             </div>
@@ -388,7 +454,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-xl-5 col-lg-6">
-            <div class="heading">
+            <div class="heading" data-aos="fade-in" data-aos-duration="3000">
               <span class="subtitle subtitle-sm">Team Members</span>
               <div class="title title-sm">Meet Our Amazing Team Members</div>
               <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco labor is tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -417,9 +483,39 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <div class="swiper">
+            <div class="swiper testimonialtwo">
               <div class="swiper-wrapper">
-                <div class="swiper-slide">
+                <div class="swiper-slide" data-aos="slide-up" data-aos-duration="1000">
+                  <div class="testimonial-card">
+                    <div class="text-center">
+                      <img src="./img/testimonial/quote-3.png" alt="Quote" />
+                      <p>Sed do eiusmod tempor indun tokhon dekhesi tumi nei onoto ei diner pashe vebe dekho sob sukh ut labore et dolore magna aliq ua. when the musics over turno fhe light says the great Jim.</p>
+                    </div>
+                    <div class="flex-center">
+                      <img src="./img/testimonial/testimonial-one.png" alt="Testimonial-Image" class="me-3" />
+                      <div class="testimonialtwo-info">
+                        <div class="user-name">Jack Oramson</div>
+                        <div class="user-job">Web Developer</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide" data-aos="slide-up" data-aos-duration="2000">
+                  <div class="testimonial-card">
+                    <div class="text-center">
+                      <img src="./img/testimonial/quote-3.png" alt="Quote" />
+                      <p>Sed do eiusmod tempor indun tokhon dekhesi tumi nei onoto ei diner pashe vebe dekho sob sukh ut labore et dolore magna aliq ua. when the musics over turno fhe light says the great Jim.</p>
+                    </div>
+                    <div class="flex-center">
+                      <img src="./img/testimonial/testimonial-one.png" alt="Testimonial-Image" class="me-3" />
+                      <div class="testimonialtwo-info">
+                        <div class="user-name">Jack Oramson</div>
+                        <div class="user-job">Web Developer</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide" data-aos="slide-up" data-aos-duration="3000">
                   <div class="testimonial-card">
                     <div class="text-center">
                       <img src="./img/testimonial/quote-3.png" alt="Quote" />
@@ -435,13 +531,14 @@
                   </div>
                 </div>
               </div>
+              <div class="swiper-pagination sliderone-pagination"></div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="blog">
+    <section class="blog" data-aos="fade-in" data-aos-duration="3000">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -596,6 +693,16 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 
+    <script src="./swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+        // once: false,
+        mirror: true,
+      });
+    </script>
     <script src="./main.js"></script>
   </body>
 </html>

@@ -325,4 +325,102 @@
     padding: 80px 0 60px;
   }
 }
+
+@media only screen and (max-width: 479px) {
+  .slidertwo-pagination {
+    max-width: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .slidertwo-pagination {
+    max-width: 100%;
+    margin-right: 15px;
+    margin-left: 15px;
+    bottom: -30px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sliderone-pagination {
+    bottom: 20px !important;
+  }
+  .slidertwo-pagination {
+    max-width: 516px;
+    bottom: -30px !important;
+  }
+  .portfolio-swiper-arrow {
+    left: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    top: auto;
+  }
+  .portfolio-swiper-arrow .swiper-btn {
+    width: 40px;
+    height: 40px;
+  }
+  .portfolio-carousel {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .sliderone-pagination {
+    bottom: 20px !important;
+  }
+  .slidertwo-pagination {
+    max-width: 698px;
+  }
+  .portfolio-swiper-arrow {
+    left: 64%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
+  .portfolio-carousel {
+    width: calc(100% + 200px);
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .slidertwo-pagination {
+    max-width: 938px;
+    bottom: 20px !important;
+  }
+  .portfolio-swiper-arrow {
+    left: 65%;
+  }
+  .portfolio-carousel {
+    width: calc(100% + 300px);
+    padding-top: 100px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+  .slidertwo-pagination {
+    max-width: 1116px;
+    bottom: 20px !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1549px) {
+  .portfolio-swiper-arrow {
+    left: 70%;
+  }
+  .portfolio-carousel {
+    width: calc(100% + 300px);
+  }
+}
+
+@media only screen and (min-width: 1550px) {
+  .slidertwo-pagination {
+    max-width: 1300px;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */

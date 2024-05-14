@@ -1,6 +1,16 @@
 (function ($) {
   "use strict";
 
+  var swiper = new Swiper(".sliderone", {
+    slidesPerView: 1,
+    spaceBetween: 30,
+    centeredSlides: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
   $(window).on("scroll", function () {
     if ($(this).scrollTop() > 0) {
       $("header").addClass("sticky");
@@ -74,4 +84,135 @@
     });
   }
   scrollToTop();
+
+  /*---------------------------
+  Testimonial Two Activation
+-----------------------------------*/
+  var swiper = new Swiper(".testimonialtwo", {
+    slidesPerView: 3,
+    loop: true,
+    pagination: false,
+    allowTouchMove: true,
+    navigation: false,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      480: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 2,
+      },
+      992: {
+        slidesPerView: 2,
+      },
+      1200: {
+        slidesPerView: 3,
+      },
+    },
+  });
+  /*---------------------------
+  Brand Slider Activation
+-----------------------------------*/
+  var swiper = new Swiper(".brand-slider", {
+    loop: true,
+    speed: 800,
+    autoplay: false,
+    slidesPerView: 5,
+    spaceBetween: 0,
+    pagination: false,
+    navigation: false,
+    breakpoints: {
+      0: {
+        slidesPerView: 2,
+        spaceBetween: 80,
+      },
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 140,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 140,
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 200,
+      },
+      1200: {
+        slidesPerView: 5,
+        spaceBetween: 140,
+      },
+    },
+  });
+  /*---------------------------
+  Brand Slider Two Activation
+-----------------------------------*/
+  var swiper = new Swiper(".brand-slider-two", {
+    loop: true,
+    speed: 800,
+    autoplay: false,
+    slidesPerView: 4,
+    spaceBetween: 0,
+    pagination: false,
+    navigation: false,
+    breakpoints: {
+      0: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 60,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 80,
+      },
+      992: {
+        slidesPerView: 3,
+        spaceBetween: 100,
+      },
+      1200: {
+        slidesPerView: 4,
+        spaceBetween: 110,
+      },
+    },
+  });
+
+  /*---------------------------
+  Portfolio Carousel Activation
+-----------------------------------*/
+  var swiper = new Swiper(".portfolio-carousel", {
+    loop: true,
+    slidesPerView: 3,
+    spaceBetween: 20,
+    pagination: false,
+    navigation: {
+      nextEl: ".portfolio-carousel-wrapper .swiper-btn-next",
+      prevEl: ".portfolio-carousel-wrapper .swiper-btn-prev",
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1,
+      },
+      480: {
+        slidesPerView: 2,
+      },
+      768: {
+        slidesPerView: 3,
+      },
+      992: {
+        slidesPerView: 3,
+      },
+      1200: {
+        slidesPerView: 3,
+      },
+    },
+  });
 })(jQuery);

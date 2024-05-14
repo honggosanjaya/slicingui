@@ -1,7 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 * {
   margin: 0;
-  pad: 0;
+  padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -673,6 +673,10 @@ header.sticky .header-button {
   margin-top: 110px;
 }
 
+.testimonial .testimonialtwo {
+  padding-bottom: 90px;
+}
+
 .testimonial .testimonial-card {
   padding: 70px 50px;
   border-radius: 20px;
@@ -1092,5 +1096,101 @@ footer .copyright ul li a {
 
 footer .copyright ul li a:hover {
   color: #7153d9;
+}
+
+.sliderone-pagination {
+  bottom: 55px !important;
+}
+
+.sliderone-pagination .swiper-pagination-bullet {
+  background-color: #e2c4ff;
+  height: 18px;
+  width: 18px;
+  border-radius: 100%;
+  opacity: 1;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.sliderone-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 60px;
+  border-radius: 20px;
+  background-color: #7153d9;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slidertwo-pagination {
+  bottom: 18px;
+  text-align: start;
+  position: relative;
+  margin: auto;
+  line-height: 0.8;
+}
+
+.slidertwo-pagination .swiper-pagination-bullet {
+  background-color: #e2c4ff;
+  height: 18px;
+  width: 18px;
+  border-radius: 100%;
+  opacity: 1;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  line-height: 1;
+}
+
+.slidertwo-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  width: 60px;
+  border-radius: 20px;
+  background-color: #7153d9;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.testimonialtwo .sliderone-pagination {
+  bottom: 0px !important;
+}
+
+.portfolio-swiper-arrow {
+  position: absolute;
+  top: 0;
+  left: 58%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.portfolio-swiper-arrow .swiper-btn {
+  width: 60px;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 2px solid #7153d9;
+  border-radius: 100%;
+  font-size: 24px;
+  color: #1c1c1c;
+  background-color: transparent;
+  margin-left: 5px;
+}
+
+.portfolio-swiper-arrow .swiper-btn:hover {
+  background: linear-gradient(135deg, #7153d9 0%, #5435be 45%, #4526b1 66%);
+  color: white;
+  border: 0px;
+}
+
+.portfolio-carousel {
+  float: left;
+  width: calc(100% + 700px);
+  position: relative;
+  padding-top: 160px;
+  margin-top: -160px;
 }
 /*# sourceMappingURL=style.css.map */
